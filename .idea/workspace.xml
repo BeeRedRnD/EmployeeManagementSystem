@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="132bcf71-e010-4dd2-bfb3-8cb1925868c1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1WXz0tT9MN0zyWpU7q06CfL9yTx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="132bcf71-e010-4dd2-bfb3-8cb1925868c1" name="Default Changelist" comment="" />
+      <created>1579310507934</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579310507934</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="94" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579310708535">
+      <screen x="0" y="23" width="1280" height="738" />
+    </state>
+    <state x="94" y="55" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1280.738@0.23.1280.738" timestamp="1579310708535" />
+    <state x="118" y="23" key="SettingsEditor" timestamp="1579310593364">
+      <screen x="0" y="23" width="1280" height="738" />
+    </state>
+    <state x="118" y="23" key="SettingsEditor/0.23.1280.738@0.23.1280.738" timestamp="1579310593364" />
+    <state x="286" y="226" key="com.intellij.ide.util.TipDialog" timestamp="1579310527843">
+      <screen x="0" y="23" width="1280" height="738" />
+    </state>
+    <state x="286" y="226" key="com.intellij.ide.util.TipDialog/0.23.1280.738@0.23.1280.738" timestamp="1579310527843" />
+  </component>
+</project>

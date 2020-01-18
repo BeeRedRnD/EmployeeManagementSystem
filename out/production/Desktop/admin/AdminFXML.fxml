@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="admin.AdminController">
+  <tabs>
+    <Tab text="Employees">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <HBox layoutX="161.0" layoutY="1.0" prefHeight="366.0" prefWidth="540.0">
+                     <children>
+                        <TableView fx:id="employeetable" prefHeight="366.0" prefWidth="540.0">
+                          <columns>
+                            <TableColumn fx:id="idcolumn" prefWidth="40.0" text="ID" />
+                            <TableColumn fx:id="firstnamecolumn" prefWidth="115.0" text="First Name" />
+                              <TableColumn fx:id="lastnamecolumn" prefWidth="107.0" text="Last Name" />
+                              <TableColumn fx:id="emailcolumn" prefWidth="128.0" text="Email" />
+                              <TableColumn fx:id="dobcolumn" prefWidth="149.0" text="DoB" />
+                          </columns>
+                        </TableView>
+                     </children>
+                  </HBox>
+                  <VBox layoutX="2.0" layoutY="1.0" prefHeight="361.0" prefWidth="156.0">
+                     <children>
+                        <Label prefHeight="28.0" prefWidth="156.0" text="Add Employees">
+                           <padding>
+                              <Insets left="30.0" />
+                           </padding>
+                        </Label>
+                        <TextField fx:id="id" prefHeight="27.0" prefWidth="90.0" promptText="ID">
+                           <padding>
+                              <Insets left="15.0" />
+                           </padding>
+                        </TextField>
+                        <TextField fx:id="firstname" layoutX="10.0" layoutY="38.0" prefHeight="27.0" prefWidth="90.0" promptText="First Name">
+                           <padding>
+                              <Insets left="15.0" />
+                           </padding>
+                        </TextField>
+                        <TextField fx:id="lastname" layoutX="10.0" layoutY="65.0" prefHeight="27.0" prefWidth="90.0" promptText="Last Name">
+                           <padding>
+                              <Insets left="15.0" />
+                           </padding>
+                        </TextField>
+                        <TextField fx:id="email" layoutX="10.0" layoutY="92.0" prefHeight="27.0" prefWidth="90.0" promptText="Email">
+                           <padding>
+                              <Insets left="15.0" />
+                           </padding>
+                        </TextField>
+                        <DatePicker fx:id="dob">
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                           <padding>
+                              <Insets left="15.0" />
+                           </padding>
+                        </DatePicker>
+                        <Button mnemonicParsing="false" onAction="#addEmployee" prefHeight="27.0" prefWidth="156.0" text="Add New Employee">
+                           <padding>
+                              <Insets left="15.0" />
+                           </padding>
+                        </Button>
+                        <Button layoutX="10.0" layoutY="173.0" mnemonicParsing="false" onAction="#clearForm" prefHeight="27.0" prefWidth="156.0" text="Clear Form">
+                           <padding>
+                              <Insets left="15.0" />
+                           </padding>
+                        </Button>
+                        <Button layoutX="10.0" layoutY="200.0" mnemonicParsing="false" onAction="#loadEmployeeData" prefHeight="27.0" prefWidth="156.0" text="Load Employees Data">
+                           <padding>
+                              <Insets left="15.0" />
+                           </padding>
+                        </Button>
+                     </children>
+                  </VBox>
+               </children></AnchorPane>
+      </content>
+    </Tab>
+  </tabs>
+</TabPane>
