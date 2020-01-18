@@ -1,2 +1,2 @@
 # EmployeeManagementSystem
-Develop Employeed Management System using JavaFX and SQLite.
+Develop Employee Management System using JavaFX and SQLite.
